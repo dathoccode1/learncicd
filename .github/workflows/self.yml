@@ -1,0 +1,11 @@
+name: manual
+on: workflow_dispatch
+jobs:
+  first-task:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello
+        run: echo "hello fen"
+      - name: Goodbye
+        run: echo "goodbye fen"
+    
